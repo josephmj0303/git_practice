@@ -1,4 +1,0 @@
-Telesto
-Ymir
-Daphnis
-Dieon
