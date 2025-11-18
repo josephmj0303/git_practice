@@ -1,0 +1,500 @@
+Nov  9 12:40:59 centos-vm kernel: hrtimer: interrupt took 3135021 ns
+Nov  9 12:40:59 centos-vm kernel: psmouse serio1: alps: Unknown ALPS touchpad: E7=10 00 64, EC=10 00 64
+Nov  9 12:40:59 centos-vm kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Nov  9 12:40:59 centos-vm systemd[1]: Reached target Local File Systems.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Local File Systems.
+Nov  9 12:40:59 centos-vm systemd[1]: Reached target Timers.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Timers.
+Nov  9 12:40:59 centos-vm systemd[1]: Created slice Root Slice.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Root Slice.
+Nov  9 12:40:59 centos-vm systemd[1]: Listening on udev Control Socket.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting udev Control Socket.
+Nov  9 12:40:59 centos-vm systemd[1]: Created slice System Slice.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting System Slice.
+Nov  9 12:40:59 centos-vm systemd[1]: Listening on udev Kernel Socket.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting udev Kernel Socket.
+Nov  9 12:40:59 centos-vm systemd[1]: Reached target Slices.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Slices.
+Nov  9 12:40:59 centos-vm systemd[1]: Reached target Swap.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Swap.
+Nov  9 12:40:59 centos-vm systemd[1]: Listening on Journal Socket.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Journal Socket.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Setup Virtual Console...
+Nov  9 12:40:59 centos-vm systemd[1]: Reached target Sockets.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Sockets.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Create list of required static device nodes for the current kernel...
+Nov  9 12:40:59 centos-vm systemd[1]: Starting dracut cmdline hook...
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Journal Service...
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Apply Kernel Variables...
+Nov  9 12:40:59 centos-vm systemd[1]: Started Create list of required static device nodes for the current kernel.
+Nov  9 12:40:59 centos-vm systemd[1]: Starting Create Static Device Nodes in /dev...
+Nov  9 12:40:59 centos-vm systemd[1]: Started Apply Kernel Variables.
+Nov  9 12:40:59 centos-vm systemd[1]: Started Create Static Device Nodes in /dev.
+Nov  9 12:40:59 centos-vm journal: Journal started
+Nov  9 12:40:59 centos-vm systemd[1]: Started Journal Service.
+Nov  9 12:40:59 centos-vm systemd: Started Setup Virtual Console.
+Nov  9 12:41:02 centos-vm systemd: Started dracut cmdline hook.
+Nov  9 12:41:02 centos-vm systemd: Starting dracut pre-udev hook...
+Nov  9 12:41:02 centos-vm kernel: device-mapper: uevent: version 1.0.3
+Nov  9 12:41:02 centos-vm kernel: device-mapper: ioctl: 4.35.0-ioctl (2016-06-23) initialised: dm-devel@redhat.com
+Nov  9 12:41:03 centos-vm systemd: Started dracut pre-udev hook.
+Nov  9 12:41:03 centos-vm systemd: Starting udev Kernel Device Manager...
+Nov  9 12:41:03 centos-vm systemd-udevd: starting version 219
+Nov  9 12:41:03 centos-vm systemd-udevd: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Nov  9 12:41:03 centos-vm systemd: Started udev Kernel Device Manager.
+Nov  9 12:41:03 centos-vm systemd: Starting udev Coldplug all Devices...
+Nov  9 12:41:03 centos-vm systemd: Mounting Configuration File System...
+Nov  9 12:41:03 centos-vm systemd: Started udev Coldplug all Devices.
+Nov  9 12:41:03 centos-vm systemd: Starting Show Plymouth Boot Screen...
+Nov  9 12:41:03 centos-vm systemd: Starting dracut initqueue hook...
+Nov  9 12:41:03 centos-vm systemd: Mounted Configuration File System.
+Nov  9 12:41:03 centos-vm systemd: Reached target System Initialization.
+Nov  9 12:41:03 centos-vm systemd: Starting System Initialization.
+Nov  9 12:41:04 centos-vm kernel: e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Nov  9 12:41:04 centos-vm kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Nov  9 12:41:04 centos-vm kernel: ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 9
+Nov  9 12:41:04 centos-vm systemd: Started Show Plymouth Boot Screen.
+Nov  9 12:41:04 centos-vm systemd: Started Forward Password Requests to Plymouth Directory Watch.
+Nov  9 12:41:04 centos-vm systemd: Starting Forward Password Requests to Plymouth Directory Watch.
+Nov  9 12:41:04 centos-vm systemd: Reached target Paths.
+Nov  9 12:41:04 centos-vm systemd: Starting Paths.
+Nov  9 12:41:04 centos-vm systemd: Reached target Basic System.
+Nov  9 12:41:04 centos-vm systemd: Starting Basic System.
+Nov  9 12:41:06 centos-vm kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:c4:e0:9e
+Nov  9 12:41:06 centos-vm kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Nov  9 12:41:06 centos-vm kernel: scsi host0: ata_piix
+Nov  9 12:41:06 centos-vm kernel: scsi host1: ata_piix
+Nov  9 12:41:06 centos-vm kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Nov  9 12:41:06 centos-vm kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Nov  9 12:41:06 centos-vm kernel: ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 11
+Nov  9 12:41:06 centos-vm kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Nov  9 12:41:06 centos-vm kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Nov  9 12:41:06 centos-vm kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Nov  9 12:41:06 centos-vm kernel: scsi host2: ahci
+Nov  9 12:41:06 centos-vm kernel: ata3: SATA max UDMA/133 abar m8192@0xf0840000 port 0xf0840100 irq 11
+Nov  9 12:41:06 centos-vm kernel: ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Nov  9 12:41:07 centos-vm kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Nov  9 12:41:07 centos-vm kernel: floppy0: no floppy controllers found
+Nov  9 12:41:07 centos-vm kernel: work still pending
+Nov  9 12:41:07 centos-vm kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Nov  9 12:41:07 centos-vm kernel: ata3.00: 81920000 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Nov  9 12:41:07 centos-vm kernel: ata3.00: configured for UDMA/133
+Nov  9 12:41:07 centos-vm kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Nov  9 12:41:07 centos-vm kernel: sd 2:0:0:0: [sda] 81920000 512-byte logical blocks: (41.9 GB/39.0 GiB)
+Nov  9 12:41:07 centos-vm kernel: sd 2:0:0:0: [sda] Write Protect is off
+Nov  9 12:41:07 centos-vm kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Nov  9 12:41:08 centos-vm kernel: sda: sda1 sda2
+Nov  9 12:41:08 centos-vm kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Nov  9 12:41:09 centos-vm systemd: Received SIGRTMIN+20 from PID 260 (plymouthd).
+Nov  9 12:41:10 centos-vm kernel: e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:0d:54:5d
+Nov  9 12:41:10 centos-vm kernel: e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+Nov  9 12:41:12 centos-vm kernel: random: crng init done
+Nov  9 12:41:13 centos-vm systemd: Found device /dev/mapper/vg00-lv_root.
+Nov  9 12:41:13 centos-vm systemd: Starting File System Check on /dev/mapper/vg00-lv_root...
+Nov  9 12:41:13 centos-vm systemd-fsck: /dev/mapper/vg00-lv_root: recovering journal
+Nov  9 12:41:40 centos-vm systemd-fsck: /dev/mapper/vg00-lv_root: clean, 69630/2277376 files, 545880/9101312 blocks
+Nov  9 12:41:40 centos-vm systemd: Started File System Check on /dev/mapper/vg00-lv_root.
+Nov  9 12:41:41 centos-vm systemd: Started dracut initqueue hook.
+Nov  9 12:41:41 centos-vm systemd: Reached target Remote File Systems (Pre).
+Nov  9 12:41:41 centos-vm systemd: Starting Remote File Systems (Pre).
+Nov  9 12:41:41 centos-vm systemd: Reached target Remote File Systems.
+Nov  9 12:41:41 centos-vm systemd: Starting Remote File Systems.
+Nov  9 12:41:41 centos-vm systemd: Mounting /sysroot...
+Nov  9 12:41:43 centos-vm kernel: EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+Nov  9 12:41:43 centos-vm systemd: Mounted /sysroot.
+Nov  9 12:41:43 centos-vm systemd: Reached target Initrd Root File System.
+Nov  9 12:41:43 centos-vm systemd: Starting Initrd Root File System.
+Nov  9 12:41:43 centos-vm systemd: Starting Reload Configuration from the Real Root...
+Nov  9 12:41:43 centos-vm systemd: Reloading.
+Nov  9 12:41:45 centos-vm systemd: Started Reload Configuration from the Real Root.
+Nov  9 12:41:45 centos-vm systemd: Reached target Initrd File Systems.
+Nov  9 12:41:45 centos-vm systemd: Starting Initrd File Systems.
+Nov  9 12:41:45 centos-vm systemd: Reached target Initrd Default Target.
+Nov  9 12:41:45 centos-vm systemd: Starting Initrd Default Target.
+Nov  9 12:41:45 centos-vm systemd: Starting dracut pre-pivot and cleanup hook...
+Nov  9 12:41:46 centos-vm systemd: Started dracut pre-pivot and cleanup hook.
+Nov  9 12:41:46 centos-vm systemd: Starting Cleaning Up and Shutting Down Daemons...
+Nov  9 12:41:46 centos-vm systemd: Stopped Cleaning Up and Shutting Down Daemons.
+Nov  9 12:41:46 centos-vm systemd: Stopped dracut pre-pivot and cleanup hook.
+Nov  9 12:41:46 centos-vm systemd: Stopping dracut pre-pivot and cleanup hook...
+Nov  9 12:41:46 centos-vm systemd: Stopped target Initrd Default Target.
+Nov  9 12:41:46 centos-vm systemd: Stopping Initrd Default Target.
+Nov  9 12:41:46 centos-vm systemd: Stopped target Basic System.
+Nov  9 12:41:46 centos-vm systemd: Stopping Basic System.
+Nov  9 12:41:46 centos-vm systemd: Stopped target Paths.
+Nov  9 12:41:46 centos-vm systemd: Stopping Paths.
+Nov  9 12:41:46 centos-vm systemd: Stopped target Sockets.
+Nov  9 12:41:46 centos-vm systemd: Stopping Sockets.
+Nov  9 12:41:46 centos-vm systemd: Stopped target Remote File Systems.
+Nov  9 12:41:46 centos-vm systemd: Stopping Remote File Systems.
+Nov  9 12:41:46 centos-vm systemd: Stopped target Remote File Systems (Pre).
+Nov  9 12:41:46 centos-vm systemd: Stopping Remote File Systems (Pre).
+Nov  9 12:41:46 centos-vm systemd: Stopped target System Initialization.
+Nov  9 12:41:46 centos-vm systemd: Stopping System Initialization.
+Nov  9 12:41:46 centos-vm systemd: Stopped Apply Kernel Variables.
+Nov  9 12:41:46 centos-vm systemd: Stopping Apply Kernel Variables...
+Nov  9 12:41:46 centos-vm systemd: Stopped target Local File Systems.
+Nov  9 12:41:46 centos-vm systemd: Stopping Local File Systems.
+Nov  9 12:41:46 centos-vm systemd: Stopped target Slices.
+Nov  9 12:41:46 centos-vm systemd: Stopping Slices.
+Nov  9 12:41:46 centos-vm systemd: Stopped target Timers.
+Nov  9 12:41:46 centos-vm systemd: Stopping Timers.
+Nov  9 12:41:46 centos-vm systemd: Stopped target Swap.
+Nov  9 12:41:46 centos-vm systemd: Stopping Swap.
+Nov  9 12:41:46 centos-vm systemd: Stopping udev Kernel Device Manager...
+Nov  9 12:41:46 centos-vm systemd: Starting Plymouth switch root service...
+Nov  9 12:41:46 centos-vm systemd: Stopped dracut initqueue hook.
+Nov  9 12:41:46 centos-vm systemd: Stopping dracut initqueue hook...
+Nov  9 12:41:46 centos-vm systemd: Stopped udev Coldplug all Devices.
+Nov  9 12:41:46 centos-vm systemd: Stopping udev Coldplug all Devices...
+Nov  9 12:41:46 centos-vm systemd: Stopped udev Kernel Device Manager.
+Nov  9 12:41:46 centos-vm systemd: Stopped dracut pre-udev hook.
+Nov  9 12:41:46 centos-vm systemd: Stopping dracut pre-udev hook...
+Nov  9 12:41:46 centos-vm systemd: Stopped dracut cmdline hook.
+Nov  9 12:41:46 centos-vm systemd: Stopping dracut cmdline hook...
+Nov  9 12:41:46 centos-vm systemd: Stopped Create Static Device Nodes in /dev.
+Nov  9 12:41:46 centos-vm systemd: Stopping Create Static Device Nodes in /dev...
+Nov  9 12:41:46 centos-vm systemd: Stopped Create list of required static device nodes for the current kernel.
+Nov  9 12:41:46 centos-vm systemd: Stopping Create list of required static device nodes for the current kernel...
+Nov  9 12:41:46 centos-vm systemd: Closed udev Kernel Socket.
+Nov  9 12:41:46 centos-vm systemd: Stopping udev Kernel Socket.
+Nov  9 12:41:46 centos-vm systemd: Closed udev Control Socket.
+Nov  9 12:41:46 centos-vm systemd: Stopping udev Control Socket.
+Nov  9 12:41:46 centos-vm systemd: Starting Cleanup udevd DB...
+Nov  9 12:41:46 centos-vm systemd: Started Plymouth switch root service.
+Nov  9 12:41:46 centos-vm systemd: Started Cleanup udevd DB.
+Nov  9 12:41:46 centos-vm systemd: Reached target Switch Root.
+Nov  9 12:41:46 centos-vm systemd: Starting Switch Root.
+Nov  9 12:41:46 centos-vm systemd: Starting Switch Root...
+Nov  9 12:41:46 centos-vm systemd: Switching root.
+Nov  9 12:41:46 centos-vm journal: Journal stopped
+Nov  9 12:41:48 centos-vm journal: Runtime journal is using 6.2M (max allowed 50.2M, trying to leave 75.3M free of 495.7M available → current limit 50.2M).
+Nov  9 12:41:48 centos-vm journal: Runtime journal is using 6.2M (max allowed 50.2M, trying to leave 75.3M free of 495.7M available → current limit 50.2M).
+Nov  9 12:41:48 centos-vm systemd-journald[85]: Received SIGTERM from PID 1 (systemd).
+Nov  9 12:41:48 centos-vm kernel: SELinux:  Disabled at runtime.
+Nov  9 12:41:48 centos-vm kernel: type=1404 audit(1762710107.360:2): selinux=0 auid=4294967295 ses=4294967295
+Nov  9 12:41:48 centos-vm kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Nov  9 12:41:48 centos-vm systemd[1]: Inserted module 'ip_tables'
+Nov  9 12:41:48 centos-vm journal: Journal started
+Nov  9 12:41:48 centos-vm systemd: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Nov  9 12:41:48 centos-vm systemd: Detected virtualization oracle.
+Nov  9 12:41:48 centos-vm systemd: Detected architecture x86.
+Nov  9 12:41:48 centos-vm systemd: Set hostname to <centos-vm>.
+Nov  9 12:41:48 centos-vm systemd: Started Apply Kernel Variables.
+Nov  9 12:41:48 centos-vm systemd: Started Create list of required static device nodes for the current kernel.
+Nov  9 12:41:48 centos-vm systemd: Mounted Debug File System.
+Nov  9 12:41:49 centos-vm systemd: Starting Create Static Device Nodes in /dev...
+Nov  9 12:41:49 centos-vm kernel: EXT4-fs (dm-0): re-mounted. Opts: (null)
+Nov  9 12:41:49 centos-vm systemd: Started Remount Root and Kernel File Systems.
+Nov  9 12:41:49 centos-vm systemd: Starting Load/Save Random Seed...
+Nov  9 12:41:49 centos-vm systemd: Starting udev Coldplug all Devices...
+Nov  9 12:41:49 centos-vm systemd: Starting Flush Journal to Persistent Storage...
+Nov  9 12:41:49 centos-vm systemd: Starting Configure read-only root support...
+Nov  9 12:41:49 centos-vm kernel: RPC: Registered named UNIX socket transport module.
+Nov  9 12:41:49 centos-vm kernel: RPC: Registered udp transport module.
+Nov  9 12:41:49 centos-vm kernel: RPC: Registered tcp transport module.
+Nov  9 12:41:49 centos-vm kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Nov  9 12:41:49 centos-vm systemd: Started Load/Save Random Seed.
+Nov  9 12:41:49 centos-vm systemd: Started Create Static Device Nodes in /dev.
+Nov  9 12:41:49 centos-vm systemd: Starting udev Kernel Device Manager...
+Nov  9 12:41:49 centos-vm systemd: Reached target Local File Systems (Pre).
+Nov  9 12:41:49 centos-vm systemd: Starting Local File Systems (Pre).
+Nov  9 12:41:49 centos-vm journal: Runtime journal is using 6.2M (max allowed 50.2M, trying to leave 75.3M free of 495.7M available → current limit 50.2M).
+Nov  9 12:41:49 centos-vm systemd: Started Flush Journal to Persistent Storage.
+Nov  9 12:41:49 centos-vm systemd-udevd: starting version 219
+Nov  9 12:41:49 centos-vm systemd-udevd: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Nov  9 12:41:49 centos-vm kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Nov  9 12:41:49 centos-vm systemd: Mounted NFSD configuration filesystem.
+Nov  9 12:41:49 centos-vm systemd: Started udev Kernel Device Manager.
+Nov  9 12:41:49 centos-vm systemd: Started udev Coldplug all Devices.
+Nov  9 12:41:50 centos-vm systemd: Started Configure read-only root support.
+Nov  9 12:41:51 centos-vm kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Nov  9 12:41:51 centos-vm kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Nov  9 12:41:51 centos-vm kernel: input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Nov  9 12:41:51 centos-vm kernel: vboxguest: loading out-of-tree module taints kernel.
+Nov  9 12:41:51 centos-vm kernel: vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+Nov  9 12:41:51 centos-vm kernel: vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Nov  9 12:41:51 centos-vm kernel: input: PC Speaker as /devices/platform/pcspkr/input/input5
+Nov  9 12:41:51 centos-vm kernel: input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input6
+Nov  9 12:41:51 centos-vm kernel: vboxguest: misc device minor 58, IRQ 11, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Nov  9 12:41:51 centos-vm kernel: sd 2:0:0:0: Attached scsi generic sg0 type 0
+Nov  9 12:41:52 centos-vm systemd: Created slice system-lvm2\x2dpvscan.slice.
+Nov  9 12:41:52 centos-vm systemd: Starting system-lvm2\x2dpvscan.slice.
+Nov  9 12:41:52 centos-vm systemd: Starting LVM2 PV scan on device 8:2...
+Nov  9 12:41:52 centos-vm systemd: Found device VBOX_HARDDISK 1.
+Nov  9 12:41:52 centos-vm kernel: ppdev: user-space parallel port driver
+Nov  9 12:41:52 centos-vm systemd: Starting File System Check on /dev/disk/by-uuid/fe9d1345-0afb-49d7-8c28-02cda9e8e31c...
+Nov  9 12:41:52 centos-vm systemd: Found device /dev/mapper/vg00-lv_swap.
+Nov  9 12:41:52 centos-vm systemd: Activating swap /dev/mapper/vg00-lv_swap...
+Nov  9 12:41:53 centos-vm systemd: Started LVM2 metadata daemon.
+Nov  9 12:41:53 centos-vm kernel: Adding 3145724k swap on /dev/mapper/vg00-lv_swap.  Priority:-1 extents:1 across:3145724k FS
+Nov  9 12:41:53 centos-vm systemd: Starting LVM2 metadata daemon...
+Nov  9 12:41:53 centos-vm systemd: Activated swap /dev/mapper/vg00-lv_swap.
+Nov  9 12:41:53 centos-vm systemd: Reached target Swap.
+Nov  9 12:41:53 centos-vm systemd: Starting Swap.
+Nov  9 12:41:53 centos-vm systemd-fsck: /dev/sda1: recovering journal
+Nov  9 12:41:54 centos-vm kernel: floppy0: no floppy controllers found
+Nov  9 12:41:54 centos-vm kernel: work still pending
+Nov  9 12:41:54 centos-vm kernel: snd_intel8x0 0000:00:05.0: measure - unreliable DMA position..
+Nov  9 12:41:54 centos-vm kernel: snd_intel8x0 0000:00:05.0: measure - unreliable DMA position..
+Nov  9 12:41:55 centos-vm kernel: snd_intel8x0 0000:00:05.0: measure - unreliable DMA position..
+Nov  9 12:41:55 centos-vm kernel: snd_intel8x0 0000:00:05.0: clocking to 48000
+Nov  9 12:41:56 centos-vm systemd: Reached target Sound Card.
+Nov  9 12:41:56 centos-vm systemd: Starting Sound Card.
+Nov  9 12:42:01 centos-vm systemd-fsck: /dev/sda1: clean, 342/65536 files, 48914/262144 blocks
+Nov  9 12:42:01 centos-vm systemd: Started File System Check on /dev/disk/by-uuid/fe9d1345-0afb-49d7-8c28-02cda9e8e31c.
+Nov  9 12:42:01 centos-vm systemd: Mounting /boot...
+Nov  9 12:42:01 centos-vm systemd: Started LVM2 PV scan on device 8:2.
+Nov  9 12:42:01 centos-vm lvm: 2 logical volume(s) in volume group "vg00" now active
+Nov  9 12:42:01 centos-vm kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Nov  9 12:42:01 centos-vm systemd: Mounted /boot.
+Nov  9 12:42:01 centos-vm systemd: Reached target Local File Systems.
+Nov  9 12:42:01 centos-vm systemd: Starting Local File Systems.
+Nov  9 12:42:01 centos-vm systemd: Starting Preprocess NFS configuration...
+Nov  9 12:42:01 centos-vm systemd: Starting Import network configuration from initramfs...
+Nov  9 12:42:01 centos-vm systemd: Starting Tell Plymouth To Write Out Runtime Data...
+Nov  9 12:42:01 centos-vm systemd: Started Tell Plymouth To Write Out Runtime Data.
+Nov  9 12:42:01 centos-vm systemd: Started Preprocess NFS configuration.
+Nov  9 12:42:01 centos-vm systemd: Started Import network configuration from initramfs.
+Nov  9 12:42:01 centos-vm systemd: Starting Create Volatile Files and Directories...
+Nov  9 12:42:01 centos-vm systemd: Started Create Volatile Files and Directories.
+Nov  9 12:42:01 centos-vm systemd: Starting Update UTMP about System Boot/Shutdown...
+Nov  9 12:42:01 centos-vm systemd: Mounting RPC Pipe File System...
+Nov  9 12:42:01 centos-vm systemd: Mounted RPC Pipe File System.
+Nov  9 12:42:01 centos-vm systemd: Started Update UTMP about System Boot/Shutdown.
+Nov  9 12:42:01 centos-vm systemd: Reached target System Initialization.
+Nov  9 12:42:01 centos-vm systemd: Starting System Initialization.
+Nov  9 12:42:01 centos-vm systemd: Started Daily Cleanup of Temporary Directories.
+Nov  9 12:42:01 centos-vm systemd: Starting Daily Cleanup of Temporary Directories.
+Nov  9 12:42:01 centos-vm systemd: Reached target Timers.
+Nov  9 12:42:01 centos-vm systemd: Starting Timers.
+Nov  9 12:42:01 centos-vm systemd: Started Flexible branding.
+Nov  9 12:42:01 centos-vm systemd: Starting Flexible branding.
+Nov  9 12:42:01 centos-vm systemd: Reached target Paths.
+Nov  9 12:42:01 centos-vm systemd: Starting Paths.
+Nov  9 12:42:01 centos-vm systemd: Listening on D-Bus System Message Bus Socket.
+Nov  9 12:42:01 centos-vm systemd: Starting D-Bus System Message Bus Socket.
+Nov  9 12:42:01 centos-vm systemd: Reached target Sockets.
+Nov  9 12:42:01 centos-vm systemd: Starting Sockets.
+Nov  9 12:42:01 centos-vm systemd: Reached target Basic System.
+Nov  9 12:42:01 centos-vm systemd: Starting Basic System.
+Nov  9 12:42:01 centos-vm systemd: Starting vboxadd.service...
+Nov  9 12:42:01 centos-vm systemd: Starting Authorization Manager...
+Nov  9 12:42:01 centos-vm systemd: Started D-Bus System Message Bus.
+Nov  9 12:42:01 centos-vm polkitd[562]: Started polkitd version 0.112
+Nov  9 12:42:01 centos-vm systemd: Starting D-Bus System Message Bus...
+Nov  9 12:42:01 centos-vm systemd: Starting System Logging Service...
+Nov  9 12:42:01 centos-vm systemd: Starting Network Manager...
+Nov  9 12:42:01 centos-vm systemd: Starting GSSAPI Proxy Daemon...
+Nov  9 12:42:01 centos-vm systemd: Starting Dump dmesg to /var/log/dmesg...
+Nov  9 12:42:01 centos-vm systemd: Starting vboxadd-x11.service...
+Nov  9 12:42:01 centos-vm systemd: Started irqbalance daemon.
+Nov  9 12:42:01 centos-vm systemd: Starting irqbalance daemon...
+Nov  9 12:42:01 centos-vm systemd: Starting Login Service...
+Nov  9 12:42:01 centos-vm systemd: Starting Cleanup of Temporary Directories...
+Nov  9 12:42:05 centos-vm /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Nov  9 12:42:06 centos-vm systemd: Started Dump dmesg to /var/log/dmesg.
+Nov  9 12:42:06 centos-vm rsyslogd: [origin software="rsyslogd" swVersion="8.24.0" x-pid="568" x-info="http://www.rsyslog.com"] start
+Nov  9 12:42:06 centos-vm systemd: Started System Logging Service.
+Nov  9 12:42:06 centos-vm systemd: Started Authorization Manager.
+Nov  9 12:42:06 centos-vm systemd: Started GSSAPI Proxy Daemon.
+Nov  9 12:42:06 centos-vm systemd: Reached target NFS client services.
+Nov  9 12:42:06 centos-vm systemd: Starting NFS client services.
+Nov  9 12:42:06 centos-vm systemd: Reached target Remote File Systems (Pre).
+Nov  9 12:42:06 centos-vm NetworkManager[569]: <info>  [1762710126.4938] NetworkManager (version 1.8.0-11.el7_4) is starting... (for the first time)
+Nov  9 12:42:06 centos-vm systemd: Starting Remote File Systems (Pre).
+Nov  9 12:42:06 centos-vm NetworkManager[569]: <info>  [1762710126.4941] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-slaves-order.conf)
+Nov  9 12:42:06 centos-vm systemd-logind: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  9 12:42:06 centos-vm systemd-logind: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  9 12:42:06 centos-vm systemd-logind: Watching system buttons on /dev/input/event4 (Video Bus)
+Nov  9 12:42:06 centos-vm NetworkManager[569]: <info>  [1762710126.6349] manager[0x81f46840]: monitoring kernel firmware directory '/lib/firmware'.
+Nov  9 12:42:06 centos-vm systemd-logind: New seat seat0.
+Nov  9 12:42:06 centos-vm NetworkManager[569]: <info>  [1762710126.6400] policy: hostname management mode: default
+Nov  9 12:42:06 centos-vm dbus-daemon: dbus[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Nov  9 12:42:06 centos-vm systemd: Started Login Service.
+Nov  9 12:42:06 centos-vm NetworkManager[569]: <info>  [1762710126.6411] dns-mgr[0x81f61078]: init: dns=default, rc-manager=file
+Nov  9 12:42:06 centos-vm systemd: Started Cleanup of Temporary Directories.
+Nov  9 12:42:06 centos-vm dbus[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Nov  9 12:42:06 centos-vm systemd: Started Network Manager.
+Nov  9 12:42:06 centos-vm systemd: Starting Network Manager Wait Online...
+Nov  9 12:42:06 centos-vm systemd: Starting Network Manager Script Dispatcher Service...
+Nov  9 12:42:06 centos-vm dbus[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  9 12:42:06 centos-vm systemd: Started Network Manager Script Dispatcher Service.
+Nov  9 12:42:06 centos-vm dbus-daemon: dbus[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  9 12:42:18 centos-vm NetworkManager[569]: <info>  [1762710138.4042] settings: loaded plugin ifcfg-rh: (c) 2007 - 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list. (/usr/lib/NetworkManager/libnm-settings-plugin-ifcfg-rh.so)
+Nov  9 12:42:25 centos-vm NetworkManager[569]: <info>  [1762710145.6823] settings: loaded plugin iBFT: (c) 2014 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list. (/usr/lib/NetworkManager/libnm-settings-plugin-ibft.so)
+Nov  9 12:42:25 centos-vm NetworkManager[569]: <info>  [1762710145.6931] settings: loaded plugin keyfile: (c) 2007 - 2016 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Nov  9 12:42:31 centos-vm NetworkManager[569]: <info>  [1762710151.6763] ifcfg-rh: new connection /etc/sysconfig/network-scripts/ifcfg-eth0 (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03,"System eth0")
+Nov  9 12:42:31 centos-vm nm-online: Error: Could not create NMClient object: Timeout was reached
+Nov  9 12:42:31 centos-vm systemd: NetworkManager-wait-online.service: main process exited, code=exited, status=2/INVALIDARGUMENT
+Nov  9 12:42:31 centos-vm systemd: Failed to start Network Manager Wait Online.
+Nov  9 12:42:31 centos-vm systemd: Unit NetworkManager-wait-online.service entered failed state.
+Nov  9 12:42:31 centos-vm systemd: NetworkManager-wait-online.service failed.
+Nov  9 12:42:31 centos-vm systemd: Starting LSB: Bring up/down networking...
+Nov  9 12:42:34 centos-vm dbus[563]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Nov  9 12:42:34 centos-vm dbus-daemon: dbus[563]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Nov  9 12:42:35 centos-vm vboxadd: vboxadd.sh: Starting the VirtualBox Guest Additions.
+Nov  9 12:42:52 centos-vm vboxadd.sh: Starting the VirtualBox Guest Additions.
+Nov  9 12:42:55 centos-vm systemd: Starting Hostname Service...
+Nov  9 12:42:55 centos-vm systemd: Started vboxadd-x11.service.
+Nov  9 12:42:59 centos-vm NetworkManager[569]: <info>  [1762710179.0630] settings: hostname: hostnamed not used as proxy creation failed with: Error calling StartServiceByName for org.freedesktop.hostname1: Timeout was reached
+Nov  9 12:42:59 centos-vm dbus[563]: [system] Failed to activate service 'org.freedesktop.hostname1': timed out
+Nov  9 12:42:59 centos-vm dbus-daemon: dbus[563]: [system] Failed to activate service 'org.freedesktop.hostname1': timed out
+Nov  9 12:43:00 centos-vm systemd: Started Hostname Service.
+Nov  9 12:43:00 centos-vm NetworkManager[569]: <info>  [1762710180.8345] dhcp-init: Using DHCP client 'dhclient'
+Nov  9 12:43:00 centos-vm NetworkManager[569]: <info>  [1762710180.8347] manager: rfkill: WiFi enabled by radio killswitch; enabled by state file
+Nov  9 12:43:00 centos-vm NetworkManager[569]: <info>  [1762710180.8349] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Nov  9 12:43:00 centos-vm NetworkManager[569]: <info>  [1762710180.8351] manager: Networking is enabled by state file
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6071] Loaded device plugin: NMBondDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6073] Loaded device plugin: NMBridgeDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6075] Loaded device plugin: NMDummyDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6189] Loaded device plugin: NMEthernetDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6190] Loaded device plugin: NMInfinibandDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6192] Loaded device plugin: NMIPTunnelDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6552] Loaded device plugin: NMMacsecDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6553] Loaded device plugin: NMMacvlanDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6555] Loaded device plugin: NMTunDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6557] Loaded device plugin: NMVethDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6558] Loaded device plugin: NMVlanDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6560] Loaded device plugin: NMVxlanDeviceFactory (internal)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6660] Loaded device plugin: NMWifiFactory (/usr/lib/NetworkManager/libnm-device-plugin-wifi.so)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6925] Loaded device plugin: NMTeamFactory (/usr/lib/NetworkManager/libnm-device-plugin-team.so)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.6980] device (lo): link connected
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.7042] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.7210] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Nov  9 12:43:01 centos-vm kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Nov  9 12:43:01 centos-vm kernel: e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.7373] device (eth0): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.7511] device (eth0): link connected
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.7739] manager: (eth1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.7795] ifcfg-rh: add connection in-memory (c818fc60-d444-3d57-aba6-51ed6513fa05,"Wired connection 1")
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.7871] settings: (eth1): created default wired connection 'Wired connection 1'
+Nov  9 12:43:01 centos-vm kernel: IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.7959] device (eth1): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Nov  9 12:43:01 centos-vm kernel: e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.8075] device (eth1): link connected
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.8662] device (eth0): state change: unavailable -> disconnected (reason 'none') [20 30 0]
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.8824] device (eth1): state change: unavailable -> disconnected (reason 'none') [20 30 0]
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.8990] policy: auto-activating connection 'System eth0'
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.9036] policy: auto-activating connection 'Wired connection 1'
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.9134] device (eth0): Activation: starting connection 'System eth0' (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.9187] device (eth1): Activation: starting connection 'Wired connection 1' (c818fc60-d444-3d57-aba6-51ed6513fa05)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.9231] device (eth0): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.9270] manager: NetworkManager state is now CONNECTING
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.9305] device (eth1): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.9422] device (eth0): state change: prepare -> config (reason 'none') [40 50 0]
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.9503] device (eth1): state change: prepare -> config (reason 'none') [40 50 0]
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.9639] device (eth0): state change: config -> ip-config (reason 'none') [50 70 0]
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.9710] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Nov  9 12:43:01 centos-vm NetworkManager[569]: <info>  [1762710181.9981] dhcp4 (eth0): dhclient started with pid 680
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.0002] device (eth1): state change: config -> ip-config (reason 'none') [50 70 0]
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.0039] dhcp4 (eth1): activation: beginning transaction (timeout in 45 seconds)
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.0427] dhcp4 (eth1): dhclient started with pid 681
+Nov  9 12:43:02 centos-vm dhclient[681]: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8 (xid=0x119ca6d7)
+Nov  9 12:43:02 centos-vm dhclient[681]: DHCPREQUEST on eth1 to 255.255.255.255 port 67 (xid=0x119ca6d7)
+Nov  9 12:43:02 centos-vm dhclient[681]: DHCPOFFER from 192.168.56.1
+Nov  9 12:43:02 centos-vm dhclient[681]: DHCPACK from 192.168.56.1 (xid=0x119ca6d7)
+Nov  9 12:43:02 centos-vm dhclient[680]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0xc590923)
+Nov  9 12:43:02 centos-vm dhclient[680]: DHCPACK from 10.0.2.2 (xid=0xc590923)
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4093] dhcp4 (eth1):   address 192.168.56.101
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4094] dhcp4 (eth1):   plen 24 (255.255.255.0)
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4095] dhcp4 (eth1):   lease time 1200
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4097] dhcp4 (eth1): state changed unknown -> bound
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4153] device (eth1): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4269] device (eth1): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4347] dhcp4 (eth0):   address 10.0.2.15
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4347] dhcp4 (eth0):   plen 24 (255.255.255.0)
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4348] dhcp4 (eth0):   gateway 10.0.2.2
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4349] dhcp4 (eth0):   lease time 86400
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4349] dhcp4 (eth0):   nameserver '10.0.2.3'
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4350] dhcp4 (eth0): state changed unknown -> bound
+Nov  9 12:43:02 centos-vm dhclient[681]: bound to 192.168.56.101 -- renewal in 558 seconds.
+Nov  9 12:43:02 centos-vm NetworkManager[569]: <info>  [1762710182.4358] device (eth1): state change: secondaries -> activated (reason 'none') [90 100 0]
+Nov  9 12:43:02 centos-vm dhclient[680]: bound to 10.0.2.15 -- renewal in 39424 seconds.
+Nov  9 12:43:03 centos-vm vboxadd-x11.sh: Installing the Window System drivers.
+Nov  9 12:43:15 centos-vm vboxadd: Could not find the X.Org or XFree86 Window System, skipping.
+Nov  9 12:43:23 centos-vm NetworkManager[569]: <info>  [1762710203.8455] device (eth1): Activation: successful, device activated.
+Nov  9 12:43:23 centos-vm dbus[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Nov  9 12:43:23 centos-vm dbus-daemon: dbus[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Nov  9 12:43:23 centos-vm NetworkManager[569]: <info>  [1762710203.8577] device (eth0): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Nov  9 12:43:23 centos-vm systemd: Starting Network Manager Script Dispatcher Service...
+Nov  9 12:43:23 centos-vm NetworkManager[569]: <info>  [1762710203.9129] device (eth0): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Nov  9 12:43:23 centos-vm NetworkManager[569]: <info>  [1762710203.9162] device (eth0): state change: secondaries -> activated (reason 'none') [90 100 0]
+Nov  9 12:43:23 centos-vm NetworkManager[569]: <info>  [1762710203.9202] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  9 12:43:23 centos-vm dbus-daemon: dbus[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  9 12:43:23 centos-vm dbus[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  9 12:43:23 centos-vm systemd: Started Network Manager Script Dispatcher Service.
+Nov  9 12:43:23 centos-vm nm-dispatcher: req:1 'up' [eth1]: new request (2 scripts)
+Nov  9 12:43:23 centos-vm nm-dispatcher: req:1 'up' [eth1]: start running ordered scripts...
+Nov  9 12:43:40 centos-vm NetworkManager[569]: <info>  [1762710220.6483] manager: NetworkManager state is now CONNECTED_SITE
+Nov  9 12:43:40 centos-vm NetworkManager[569]: <info>  [1762710220.6561] policy: set 'System eth0' (eth0) as default for IPv4 routing and DNS
+Nov  9 12:43:44 centos-vm vboxadd.sh: .
+Nov  9 12:43:44 centos-vm systemd: Started vboxadd.service.
+Nov  9 12:43:44 centos-vm systemd: Starting vboxadd-service.service...
+Nov  9 12:43:46 centos-vm NetworkManager[569]: <info>  [1762710226.7743] device (eth0): Activation: successful, device activated.
+Nov  9 12:43:46 centos-vm nm-dispatcher: req:2 'up' [eth0]: new request (2 scripts)
+Nov  9 12:43:46 centos-vm nm-dispatcher: req:2 'up' [eth0]: start running ordered scripts...
+Nov  9 12:43:46 centos-vm NetworkManager[569]: <info>  [1762710226.7880] manager: startup complete
+Nov  9 12:43:46 centos-vm NetworkManager[569]: <info>  [1762710226.8223] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  9 12:43:46 centos-vm nm-dispatcher: req:3 'connectivity-change': new request (2 scripts)
+Nov  9 12:43:46 centos-vm vboxadd-service: vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Nov  9 12:43:46 centos-vm vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Nov  9 12:43:46 centos-vm nm-dispatcher: req:3 'connectivity-change': start running ordered scripts...
+Nov  9 12:43:47 centos-vm kernel: VBoxService 5.1.18 r114002 (verbosity: 0) linux.x86 (Mar 15 2017 16:31:48) release log#01200:00:00.000336 main     Log opened 2025-11-09T17:43:47.076113000Z
+Nov  9 12:43:47 centos-vm kernel: 00:00:00.000528 main     OS Product: Linux
+Nov  9 12:43:47 centos-vm kernel: 00:00:00.003145 main     OS Release: 3.10.0-693.5.2.el7.centos.plus.i686
+Nov  9 12:43:47 centos-vm kernel: 00:00:00.003259 main     OS Version: #1 SMP Mon Oct 23 13:28:04 UTC 2017
+Nov  9 12:43:47 centos-vm kernel: 00:00:00.003367 main     Executable: /opt/VBoxGuestAdditions-5.1.18/sbin/VBoxService#01200:00:00.003373 main     Process ID: 786#01200:00:00.003456 main     Package type: LINUX_32BITS_GENERIC
+Nov  9 12:43:47 centos-vm kernel: 00:00:00.015055 main     5.1.18 r114002 started. Verbose level = 0
+Nov  9 12:43:47 centos-vm vboxadd-service.sh: VirtualBox Guest Addition service started.
+Nov  9 12:43:47 centos-vm systemd: Started vboxadd-service.service.
+Nov  9 12:43:47 centos-vm network: Bringing up loopback interface:  [  OK  ]
+Nov  9 12:43:47 centos-vm network: Bringing up interface eth0:  [  OK  ]
+Nov  9 12:43:47 centos-vm systemd: Started LSB: Bring up/down networking.
+Nov  9 12:43:47 centos-vm systemd: Reached target Network.
+Nov  9 12:43:47 centos-vm systemd: Starting Network.
+Nov  9 12:43:47 centos-vm systemd: Reached target Network is Online.
+Nov  9 12:43:47 centos-vm systemd: Starting Network is Online.
+Nov  9 12:43:47 centos-vm systemd: Starting Notify NFS peers of a restart...
+Nov  9 12:43:47 centos-vm systemd: Starting Dynamic System Tuning Daemon...
+Nov  9 12:43:47 centos-vm sm-notify[913]: Version 1.3.0 starting
+Nov  9 12:43:47 centos-vm systemd: Starting OpenSSH server daemon...
+Nov  9 12:43:47 centos-vm systemd: Starting Postfix Mail Transport Agent...
+Nov  9 12:43:47 centos-vm systemd: Mounting /vagrant...
+Nov  9 12:43:47 centos-vm systemd: Started Notify NFS peers of a restart.
+Nov  9 12:43:48 centos-vm systemd: Mounted /vagrant.
+Nov  9 12:43:48 centos-vm systemd: Reached target Remote File Systems.
+Nov  9 12:43:48 centos-vm systemd: Starting Remote File Systems.
+Nov  9 12:43:48 centos-vm systemd: Starting Permit User Sessions...
+Nov  9 12:43:48 centos-vm systemd: Starting Crash recovery kernel arming...
+Nov  9 12:43:48 centos-vm systemd: Started OpenSSH server daemon.
+Nov  9 12:43:48 centos-vm systemd: Started Permit User Sessions.
+Nov  9 12:43:48 centos-vm systemd: Starting Wait for Plymouth Boot Screen to Quit...
+Nov  9 12:43:48 centos-vm systemd: Started Command Scheduler.
+Nov  9 12:43:48 centos-vm systemd: Starting Command Scheduler...
+Nov  9 12:43:48 centos-vm systemd: Starting Terminate Plymouth Boot Screen...
+Nov  9 12:43:48 centos-vm systemd: Received SIGRTMIN+21 from PID 260 (plymouthd).
+Nov  9 12:43:48 centos-vm kdumpctl: No memory reserved for crash kernel
+Nov  9 12:43:48 centos-vm kdumpctl: Starting kdump: [FAILED]
+Nov  9 12:43:48 centos-vm systemd: kdump.service: main process exited, code=exited, status=1/FAILURE
+Nov  9 12:43:48 centos-vm systemd: Failed to start Crash recovery kernel arming.
+Nov  9 12:43:48 centos-vm systemd: Unit kdump.service entered failed state.
+Nov  9 12:43:48 centos-vm systemd: kdump.service failed.
+Nov  9 12:43:48 centos-vm systemd: Started Wait for Plymouth Boot Screen to Quit.
+Nov  9 12:43:48 centos-vm systemd: Started Terminate Plymouth Boot Screen.
+Nov  9 12:43:48 centos-vm systemd: Started Getty on tty1.
+Nov  9 12:43:48 centos-vm systemd: Starting Getty on tty1...
+Nov  9 12:43:48 centos-vm systemd: Reached target Login Prompts.
+Nov  9 12:43:48 centos-vm systemd: Starting Login Prompts.
+Nov  9 12:43:48 centos-vm systemd: Started Dynamic System Tuning Daemon.
+Nov  9 12:43:53 centos-vm systemd: Started Postfix Mail Transport Agent.
+Nov  9 12:43:53 centos-vm systemd: Reached target Multi-User System.
+Nov  9 12:43:53 centos-vm systemd: Starting Multi-User System.
+Nov  9 12:43:53 centos-vm systemd: Starting Update UTMP about System Runlevel Changes...
+Nov  9 12:43:53 centos-vm systemd: Started Update UTMP about System Runlevel Changes.
+Nov  9 12:43:53 centos-vm systemd: Startup finished in 1h 10min 48.395s (kernel) + 48.794s (initrd) + 2min 6.578s (userspace) = 1h 13min 43.767s.
+Nov  9 12:45:45 centos-vm systemd: Created slice User Slice of vagrant.
+Nov  9 12:45:45 centos-vm systemd: Starting User Slice of vagrant.
+Nov  9 12:45:45 centos-vm systemd: Started Session 1 of user vagrant.
+Nov  9 12:45:45 centos-vm systemd-logind: New session 1 of user vagrant.
+Nov  9 12:45:45 centos-vm systemd: Starting Session 1 of user vagrant.
